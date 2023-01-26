@@ -1,0 +1,195 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  font-family: monospace,sans-serif;
+}
+  .container{
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0 auto;
+  background: #adcbfe;
+}
+.main{
+  background: linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0.3),deepskyblue);
+  height:100%;
+  width:80%;
+  max-width: 500px;
+  margin:0 auto;
+}
+
+ /* Bangladesh */
+#green{
+  display: inline-block;
+  background: green;
+  width: 200px;
+  height:30vh;
+  margin: 20px 15px;
+  position: relative;
+  
+}
+#circle{
+  background: red;
+  height:20vh;
+  width:100px;
+  border-radius:50%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%)
+}
+#bas{
+  height: 70vh;
+  width: 10px;
+  background: lightsalmon;
+  position: absolute;
+  left:-10px;
+  top: -5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+ /* Done */
+.hr{
+  height: 0px;
+  width: 100%;
+  border-top: 2px dashed black;
+  margin: 42vh auto 5px auto;
+}
+/* Argentina */
+.Ar-big{
+ background: #fff;
+ width: 95%;
+ height: 54vh;
+ margin: 5px auto;
+ position: relative;
+}
+.ar1{
+ background: deepskyblue;
+ height: 18vh;
+ width: 100%;
+ position: absolute;
+ top: 0;
+}
+.ar2{
+ background: deepskyblue;
+ height: 18vh;
+ width: 100%;
+ position: absolute;
+ bottom: 0;
+}
+.ar-logo img{
+ width: 33.33%;
+ height: 18vh;
+ margin-top: 100px; 
+ position: absolute;
+ bottom: 50%;
+ left: 50%;
+ transform: translate(-50%,50%);
+}
+/* Brazil */
+.bz-big {
+ background: darkgreen;
+ width: 95%;
+ height: 54vh;
+ margin: 5px auto;
+ position: relative;
+}
+.bz-shape img{
+ height: 43.5vh;
+ width: 80%;
+ position: absolute;
+ bottom: 50%;
+ left: 50%;
+ transform: translate(-50%,50%);
+}
+ 
+.bz-ball img{
+ height: 23.5vh;
+ width: 40%;
+ position: absolute;
+ bottom: 50%;
+ left: 50%;
+ transform: translate(-50%,50%);
+}
+ /* Russia */
+
+.rs-big {
+  background: white;
+  width: 95%;
+  height: 54vh;
+  margin: 5px auto;
+  position: relative;
+}
+.rs1 {
+  background: darkblue;
+  height: 18vh;
+  width: 100%;
+  position: absolute;
+  top: 18vh;
+
+}
+.rs2 {
+background: darkred;
+height: 18vh;
+width: 100%;
+position: absolute;
+bottom: 0;
+  }
+/* Portugal */
+.ptg-big {
+ background: #fff;
+ width: 95%;
+ height: 54vh;
+ margin: 5px auto;
+ position: relative;
+}
+.ptg-logo img {
+ height: 30vh;
+ width: 50%;
+ position: absolute;
+ bottom: 50%;
+ left: 40%;
+ transform: translate(-50%, 50%);
+}
+.ptg1 {
+  background: darkred;
+  width: 40%;
+  height: 54vh;
+  position: absolute;
+  bottom: 0;
+}
+.ptg2 {
+  background: darkgreen;
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  right: 0;
+}
+/* Canada */
+.cnd-big{
+    background: red;
+    width: 95%;
+    height: 54vh;
+    margin: 5px auto;
+    position: relative;
+}
+.cnd1{
+    background: #fff;
+    width: 60%;
+    height: 54vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.cnd-logo img{
+    background: #fff;
+    width: 40%;
+    height: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
